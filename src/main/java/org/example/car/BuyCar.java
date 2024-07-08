@@ -1,10 +1,12 @@
 package org.example.car;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class BuyCar{
 
+    @Autowired
     private Car car;
 
     public BuyCar() {
@@ -14,6 +16,7 @@ public class BuyCar{
         return car;
     }
 
+    @Autowired
     public void setCar(Car car) {
         this.car = car;
     }
