@@ -1,6 +1,6 @@
-package org.example.student;
+package org.example.springstudent;
 
-public class ItstepStudent implements Student{
+public class ItstepStudent implements Student {
 
     @Override
     public String study() {

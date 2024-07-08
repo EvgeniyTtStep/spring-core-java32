@@ -1,2 +1,7 @@
-package org.example.student;public class StudentRunner {
+package org.example.student;
+
+public interface StudentRunner {
+
+    void runLearning();
+
 }

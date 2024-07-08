@@ -1,4 +1,4 @@
-package org.example.student;
+package org.example.springstudent;
 
 public interface StudentRunner {
 

@@ -3,4 +3,33 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+
+<!--    <bean id="engine" class="org.example.car.Engine">-->
+<!--        <property name="name" value="diesel"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="toyotaCar" class="org.example.car.ToyotaCar">-->
+<!--        <property name="name" value="Auris"/>-->
+<!--        <property name="color" value="white"/>-->
+<!--        <property name="engine" ref="engine"/>-->
+<!--        <property name="complectation">-->
+<!--            <list>-->
+<!--                <value>Condition</value>-->
+<!--                <value>Cruis</value>-->
+<!--                <value>Automat</value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--        <property name="gosNumber">-->
+<!--            <map>-->
+<!--                <entry key="AP" value="3355"/>-->
+<!--                <entry key="AI" value="7777"/>-->
+<!--                <entry key="CE" value="8888"/>-->
+<!--            </map>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean id="buyCar" class="org.example.car.BuyCar">-->
+<!--        <property name="car" ref="toyotaCar"/>-->
+<!--    </bean>-->
+
 </beans>

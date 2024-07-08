@@ -1,18 +1,13 @@
-package org.example.student;
+package org.example.springstudent;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-
-//        Student student = new ItstepStudent();
-//        Student student1 = new DNUStudent();
-//        StudentRunner studentRunner = new StudentRunnerImpl(student1);
-//        studentRunner.runLearning();
-
-        InitStudent.initStudent();
-        StudentRunner studentRunner = InitStudent.initStudentRunner();
+        ApplicationContext context = new ClassPathXmlApplicationContext("student.xml");
+        StudentRunner studentRunner = (StudentRunnerImpl) context.getBean("studentRunner");
         studentRunner.runLearning();
-
-
 
     }
 }

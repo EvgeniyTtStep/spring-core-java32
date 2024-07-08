@@ -3,4 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="itstepStudent" class="org.example.springstudent.ItstepStudent"/>
+
+    <bean id="dnuStudent" class="org.example.springstudent.DNUStudent"/>
+
+    <bean id="studentRunner" class="org.example.springstudent.StudentRunnerImpl">
+        <constructor-arg name="student" ref="dnuStudent"/>
+    </bean>
+
 </beans>
